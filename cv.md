@@ -31,6 +31,11 @@ It was originally written in native JS. As further training progressed, a copy o
 ```
 Will be code soon
 ```
+## English language skills
+I have been actively learning English and know about 4000 words.
+I can read and understand both general literature and special literature on programming.
+According to the Online English level test, passed on the website [www.efset.org](https://www.efset.org/), my English level (reading and listening skills) is in the range from B1 to B2. But my conversational skills are much more modest and are at the A1-A2 level.
+
 
 
 
