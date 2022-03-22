@@ -32,7 +32,9 @@ It was originally written in native JS. As further training progressed, a copy o
 [Live hosting my application](https://lovalik.github.io/liveHosting/)
 ## Code examples
 ```
-Will be code soon
+function multiply(a, b){
+  return a * b
+}
 ```
 ## English language skills
 I have been actively learning English and know about 4000 words.
