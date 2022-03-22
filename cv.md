@@ -27,5 +27,10 @@ The application is able to save its state between restarts, supports changing la
 It was originally written in native JS. As further training progressed, a copy of the application was translated to React JS.
 [Live hosting my application](https://lovalik.github.io/liveHosting/)
 
+## Code examples
+```
+Will be code soon
+```
+
 
 
