@@ -52,6 +52,9 @@ Both semesters of the fourth year graduated from educational programs with honor
 - 2017 – 2018 [Mogilev Bus depot №1](https://ap1mogilev.by/), Mogilev. Post: city bus driver;
 - 2018 – 2021 [Minsk Bus Depot № 2](https://minsktrans.by/filial/filial-avtobusnyj-park-%e2%84%962/), Minsk. Post: city bus driver.
 
+## Hobby
+From 2000 until 2013 I was seriously engaged in [triathlon](https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B0%D1%82%D0%BB%D0%BE%D0%BD). Took part in the republican championships. Won several prize-winning places. Have sport category - candidate of master of sports.
+From 2013 to this day I have been leading an active lifestyle. Almost every day, I run about 10km or swim about 2 km. In addition, in warm time of year also ride my bike.
 
 
 
