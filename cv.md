@@ -10,8 +10,11 @@ Email: lovalikk@gmail.com
 Discord: Lobyak Valentin#8812
 ## Briefly about me
 From the middle of 2021 year I have been thoroughly learning frontend base: HTML, CSS, JavaScript.
+
 The main focus is on JS + React.
+
 Also familiar with related software, such as GIT, Node.js, NPM.
+
 Constantly consolidate my theoretical knowledge in practice.
 ## Personal qualities
 - purposefulness;
