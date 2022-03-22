@@ -5,7 +5,7 @@ Location: Belarus, Mogilev
 
 Phone: +375 (29) 907-22-32
 
-Email: [lovalikk@gmail.com](lovalikk@gmail.com)
+Email: lovalikk@gmail.com
 
 Discord: Lobyak Valentin#8812
 ## Briefly about me
