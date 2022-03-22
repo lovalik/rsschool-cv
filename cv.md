@@ -20,6 +20,12 @@ strong ability to learn;
 vitality
 the desire to learn.
 
+## My project
+As an example of work, I developed a small test web application.
+The test application is an emulator of an electronic clock, stopwatch, timer.
+The application is able to save its state between restarts, supports changing languages, adapts to the size of the screen.
+It was originally written in native JS. As further training progressed, a copy of the application was translated to React JS.
+[Live hosting my application](https://lovalik.github.io/liveHosting/)
 
 
 
