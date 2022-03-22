@@ -13,12 +13,12 @@ Also familiar with related software, such as GIT, Node.js, NPM.
 Constantly consolidate my theoretical knowledge in practice.
 ***
 ## Personal qualities
-purposefulness;
-sociability;
-high performance;
-strong ability to learn;
-vitality
-the desire to learn.
+- purposefulness;
+- sociability;
+- high performance;
+- strong ability to learn;
+- vitality;
+- the desire to learn.
 ***
 ## My project
 As an example of work, I developed a small test web application.
