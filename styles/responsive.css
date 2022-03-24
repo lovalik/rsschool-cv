@@ -131,16 +131,21 @@
 }
 /* TEXT-ALIGN ___ FLEX-WRAP ____ FLEX-DIRECTION */
 @media screen and ( min-width: 600px){
-    .cv__portfolio_references,
-    .cv__footer_right-part{
+    .cv__portfolio_references{
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .cv__footer_right-part{
+        justify-content: center;
+    }
 }
 @media screen and ( max-width: 600px){
-    .cv__portfolio_references{
+    .cv__portfolio_references,
+    .cv__footer_right-part{
         flex-direction: column;
+    }
+    .cv__footer_right-part{
+        justify-content: center;
     }
 }
 @media screen and ( min-width: 1250px){
@@ -281,6 +286,9 @@
 @media screen and ( max-width: 600px){
     .cv__portfolio_references > div{
         width: 280px;
+    }
+    .cv__footer_right-part > div{
+        width: 60%;
     }
 }
 @media screen and ( max-width: 330px){

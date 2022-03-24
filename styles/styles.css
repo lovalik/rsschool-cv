@@ -189,11 +189,19 @@ address > ul > li > p:last-child{
 .cv__footer_right-part > div{
     text-align: center;
 }
-.cv__logo-rsschool{
-    width: 75%;
-
+.cv__logo-rsschool,
+.cv__logo-github{
+    /* width: 75%; */
     margin: 24px 0;
     padding: 20px;
     background-color: #E0A809;
+    /* border-radius: 25px; */
+}
+.cv__logo-rsschool{
+    width: 75%;
     border-radius: 25px;
+}
+.cv__logo-github{
+    width: 50%;
+    border-radius: 50%;
 }
