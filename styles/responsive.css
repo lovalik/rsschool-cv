@@ -79,28 +79,28 @@
 }
 /* AVATARA */
 @media screen and ( min-width: 350px){
-    .resume__avatar_wrapper{
+    .cv__avatar_wrapper{
         width: 300px;
         height: 300px;
         border-radius: 150px;
     }
-    .resume__avatar{
+    .cv__avatar{
         border-radius: 150px;
     }
 }
 @media screen and ( max-width: 350px){
-    .resume__avatar_wrapper{
+    .cv__avatar_wrapper{
         width: 200px;
         height: 200px;
         border-radius: 100px;
     }
-    .resume__avatar{
+    .cv__avatar{
         border-radius: 100px;
     }
 }
 /* TABLE AND UL */
 @media screen and ( min-width: 800px){
-    .resume__personal-traits_right-part > ul{
+    .cv__personal-traits_right-part > ul{
         display: none;
     }
     table{
@@ -111,7 +111,7 @@
     table{
         display: none;
     }
-    .resume__personal-traits_right-part > ul{
+    .cv__personal-traits_right-part > ul{
         display: block;
         padding-left: 15px;
         font-size: 16px;
@@ -119,12 +119,12 @@
 }
 /* TEXT-ALIGN ___ FLEX-WRAP ____ FLEX-DIRECTION */
 @media screen and ( min-width: 600px){
-    .resume__portfolio_references{
+    .cv__portfolio_references{
         flex-wrap: wrap;
     }
 }
 @media screen and ( max-width: 600px){
-    .resume__portfolio_references{
+    .cv__portfolio_references{
         flex-direction: column;
     }
 }
@@ -162,91 +162,91 @@
     }
 }
 @media screen and ( min-width: 800px ){
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         font-size: 18px;
     }
 }
 @media screen and ( min-width: 550px ) and ( max-width: 800px ){
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         font-size: 16px;
     }
 }
 @media screen and ( min-width: 550px){
-    .resume__work-experience_workplace_organization,
-    .resume__education_organization,
-    .resume__hobby-period{
+    .cv__work-experience_workplace_organization,
+    .cv__education_organization,
+    .cv__hobby-period{
         font-size: 18px;
     }
-    .resume__work-experience_workplace_organization_prefix{
+    .cv__work-experience_workplace_organization_prefix{
         font-size: 16px;
     }
 }
 @media screen and ( min-width: 400px) and ( max-width: 550px){
-    .resume__work-experience_workplace_organization,
-    .resume__education_organization,
-    .resume__hobby-period{
+    .cv__work-experience_workplace_organization,
+    .cv__education_organization,
+    .cv__hobby-period{
         font-size: 14px;
     }
-    .resume__work-experience_workplace_organization_prefix{
+    .cv__work-experience_workplace_organization_prefix{
         font-size: 12px;
     }
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         font-size: 14px;
     }
 }
 @media screen and ( max-width: 400px){
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         font-size: 12px;
     }
 }
 @media screen and ( min-width: 340px) and ( max-width: 400px){
-    .resume__work-experience_workplace_organization,
-    .resume__education_organization,
-    .resume__hobby-period{
+    .cv__work-experience_workplace_organization,
+    .cv__education_organization,
+    .cv__hobby-period{
         font-size: 12px;
     }
-    .resume__work-experience_workplace_organization_prefix{
+    .cv__work-experience_workplace_organization_prefix{
         font-size: 10px;
     }
 }
 @media screen and ( max-width: 340px){
-    .resume__work-experience_workplace_organization,
-    .resume__education_organization,
-    .resume__hobby-period{
+    .cv__work-experience_workplace_organization,
+    .cv__education_organization,
+    .cv__hobby-period{
         font-size: 10px;
     }
-    .resume__work-experience_workplace_organization_prefix{
+    .cv__work-experience_workplace_organization_prefix{
         font-size: 8px;
     }
 }
 @media screen and ( min-width: 750px){
     h2,
-    .resume__portfolio_references a{
+    .cv__portfolio_references a{
         font-size: 24px;
     }
 }
 @media screen and ( max-width: 750px){
     h2,
-    .resume__portfolio_references a{
+    .cv__portfolio_references a{
         font-size: 20px;
     }
 }
 /* WIDTH FOR DIVS */
 @media screen and ( min-width: 600px){
-    .resume__portfolio_references > div{
+    .cv__portfolio_references > div{
         width: 50%;
     }
 }
 @media screen and ( max-width: 600px){
-    .resume__portfolio_references > div{
+    .cv__portfolio_references > div{
         width: 280px;
     }
 }
@@ -290,59 +290,59 @@
     }
 }
 @media screen and ( min-width: 800px){
-    .resume__work-experience > div > div:first-child,
-    .resume__education > div > div:first-child,
-    .resume__hobby > div > div:first-child{
+    .cv__work-experience > div > div:first-child,
+    .cv__education > div > div:first-child,
+    .cv__hobby > div > div:first-child{
         width: 40%;
     }
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         width: 60%;
     }
 }
 @media screen and ( max-width: 800px){
-    .resume__work-experience > div > div:first-child,
-    .resume__education > div > div:first-child,
-    .resume__hobby > div > div:first-child{
+    .cv__work-experience > div > div:first-child,
+    .cv__education > div > div:first-child,
+    .cv__hobby > div > div:first-child{
         width: 50%;
     }
-    .resume__work-experience > div > div:last-child,
-    .resume__education > div > div:last-child,
-    .resume__hobby > div > div:last-child{
+    .cv__work-experience > div > div:last-child,
+    .cv__education > div > div:last-child,
+    .cv__hobby > div > div:last-child{
         width: 50%;
     }
 }
 /* RUS - ENG FLAGS */
 @media screen and ( min-width: 1600px){
-    .resume__english-version{
+    .cv__english-version{
         right: 500px;
     }
-    .resume__russian-version{
+    .cv__russian-version{
         right: 500px;
     }
 }
 @media screen and ( min-width: 1400px) and ( max-width: 1600px){
-    .resume__english-version{
+    .cv__english-version{
         right: 400px;
     }
-    .resume__russian-version{
+    .cv__russian-version{
         right: 400px;
     }
 }
 @media screen and ( min-width: 1250px) and ( max-width: 1400px){
-    .resume__english-version{
+    .cv__english-version{
         right: 320px;
     }
-    .resume__russian-version{
+    .cv__russian-version{
         right: 320px;
     }
 }
 @media screen and ( max-width: 1250px){
-    .resume__english-version{
+    .cv__english-version{
         right: 15px;
     }
-    .resume__russian-version{
+    .cv__russian-version{
         right: 15px;
     }
 }
