@@ -1,3 +1,195 @@
+@import url('./font-face.css');
+@import url('./responsive.css');
+
 body {
-    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #292A2A;
+    font-family: 'Ubuntu', 'Ubuntu-Bold', 'Tahoma', 'Arial', sans-serif;
+    color: #979899;
+    font-size: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.cv__line-between-sections,
+.cv__qr-for-github,
+.cv__qr-for-live-hosting{
+    display: none;
+}
+a{
+    text-decoration: none;
+    transition: 150ms linear;
+    color: #E0A809;
+}
+a:hover{
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+body > div{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body > div > div:first-child,
+body > div > div:last-child{
+    position: relative;
+}
+.cv__skills-title_wrapper,
+.cv__portfolio-title_wrapper,
+.cv__english-skills-title_wrapper,
+.cv__personal-traits-title_wrapper,
+.cv__education-title_wrapper,
+.cv__work-experience-title_wrapper,
+.cv__hobby-title_wrapper{
+    display: inline-block;
+}
+p{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+h2{
+    margin: 0;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+.cv__avatar_wrapper{
+    display: inline-block;
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+}
+.cv__avatar{
+    height: 100%;
+}
+.cv__english-version,
+.cv__russian-version{
+    position: absolute;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 150ms linear;
+}
+.cv__english-version{
+    top: 20px;
+    background-image: url("../images/engflag.png");
+}
+.cv__russian-version{
+    top: 75px;
+    background-image: url("../images/rusflag.png");
+}
+a[ href*="indexRUS.html" ],
+a[ href*="indexRUS.html" ]{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cv__english-version:hover,
+.cv__russian-version:hover{
+    transform: scale(1.2, 1.2);
+}
+.cv__personal-data_FIO{
+    display: block;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #A4A5A6;
+}
+.cv__personal-data_FIO_name,
+.cv__personal-data_FIO_surname{
+    display: inline-block;
+    font-size: 72px;
+}
+.cv__personal-data_FIO_name{
+    margin-bottom: 0px;
+    line-height: 0.8;
+    color: #A4A5A6;
+}
+.cv__personal-data_FIO_surname{
+    text-transform: uppercase;
+    font-family: 'Ubuntu-Bold';
+    margin: 0 0 0 15px;
+    line-height: 1;
+    color: #E0A809;
+}
+address{
+    padding-top: 25px;
+    font-size: 0;
+}
+address > div{
+    font-size: 24px;
+    font-style: normal;
+}
+address > div:last-child{
+    margin-top: 15px;
+}
+.cv__portfolio > div:last-child{
+    margin-top: 25px;
+    padding-top: 25px;
+    font-size: 0;
+    border-top: solid 1px #A4A5A6;
+}
+.cv__portfolio_references{
+    display: flex;
+}
+.cv__portfolio a{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.cv__personal-traits{
+    border-collapse: collapse;
+    padding-top: 20px;
+    text-align: left;
+}
+.cv__personal-traits tr > td{
+    padding-top: 5px;
+}
+.cv__work-experience > div,
+.cv__education > div,
+.cv__hobby > div{
+    margin-bottom: 25px;
+    font-size: 0;
+}
+.cv__work-experience > div > div,
+.cv__education > div > div,
+.cv__hobby > div > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.cv__work-experience > div > div:last-child,
+.cv__education > div > div:last-child,
+.cv__hobby > div > div:last-child{
+    padding-left: 25px;
+}
+.cv__work-experience_workplace_period,
+.cv__work-experience_workplace_city,
+.cv__education_period,
+.cv__education_city{
+    font-size: 10px;
+    position: relative;
+}
+.cv__work-experience_workplace_period,
+.cv__education_period{
+    margin-top: 14px;
+}
+.cv__work-experience_workplace_organization,
+.cv__education_organization,
+.cv__hobby-period{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cv__work-experience_workplace_organization_prefix{
+    margin: 5px 0 0 0;
+}
+.cv__personal-traits-article p{
+    display: inline-block;
+    text-indent: 45px;
+}
+.cv__hobby > div:first-child{
+    margin-bottom: 25px;
 }
