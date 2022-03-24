@@ -64,7 +64,7 @@ h2{
 .cv__avatar{
     height: 100%;
 }
-.cv__english-version,
+/* .cv__english-version,
 .cv__russian-version{
     position: absolute;
     z-index: 1000;
@@ -93,7 +93,7 @@ a[ href*="indexRUS.html" ]{
 .cv__english-version:hover,
 .cv__russian-version:hover{
     transform: scale(1.2, 1.2);
-}
+} */
 .cv__personal-data_FIO{
     display: block;
     padding-bottom: 25px;
@@ -120,13 +120,29 @@ address{
     padding-top: 25px;
     font-size: 0;
 }
-address > div{
-    font-size: 24px;
+address > ul{
+    padding: 0;
+    list-style-type : none;
+}
+address > ul> li{
+    /* font-size: 24px; */
     font-style: normal;
 }
-address > div:last-child{
-    margin-top: 15px;
+address > ul > li > p:first-child{
+    font-size: 24px;
+    font-weight: bold;
 }
+address > ul> li > a{
+    font-size: 20px;
+    /* font-style: normal; */
+}
+address > ul > li > p:last-child{
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+/* address > div:last-child{
+    margin-top: 15px;
+} */
 .cv__portfolio > div:last-child{
     margin-top: 25px;
     padding-top: 25px;
