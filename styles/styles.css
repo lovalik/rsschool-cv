@@ -27,7 +27,7 @@ a:hover{
     color: white;
     transform: scale(1.1, 1.1);
 }
-body > div{
+body > div, footer{
     position: relative;
     display: flex;
     margin: 0;
