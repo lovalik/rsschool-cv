@@ -1,43 +1,29 @@
 /* BACKGROUND-COLOR */
 @media screen and ( min-width: 1250px){
-    body > div:nth-child(odd) > div:first-child{
+    body > div:nth-child(odd) > div:first-child,
+    footer:nth-child(odd) > div:first-child{
         background-color: #2B2C2C;
     }
-    body > div:nth-child(even) > div:first-child{
+    body > div:nth-child(even) > div:first-child,
+    footer:nth-child(even) > div:first-child{
         background-color: #292A2A;
     }
-    body > div:nth-child(odd) > div:last-child{
+    body > div:nth-child(odd) > div:last-child,
+    footer:nth-child(odd) > div:last-child{
         background-color: #2D2E2E;
     }
-    body > div:nth-child(even) > div:last-child{
-        background-color: #2B2C2C;
-    }
-
-
-    body > footer:nth-child(odd) > div:first-child{
-        background-color: #2B2C2C;
-    }
-    body > footer:nth-child(even) > div:first-child{
-        background-color: #292A2A;
-    }
-    body > footer:nth-child(odd) > div:last-child{
-        background-color: #2D2E2E;
-    }
-    body > footer:nth-child(even) > div:last-child{
+    body > div:nth-child(even) > div:last-child,
+    footer:nth-child(even) > div:last-child{
         background-color: #2B2C2C;
     }
 }
 @media screen and ( max-width: 1250px){
-    body > div > div:first-child{
-        background-color: #292A2A;
-    }
-    body > div > div:last-child{
-        background-color: #2D2E2E;
-    }
+    body > div > div:first-child,
     footer > div:first-child{
         background-color: #292A2A;
     }
-    footer > div:first-child{
+    body > div > div:last-child,
+    footer > div:last-child{
         background-color: #2D2E2E;
     }
 }
@@ -49,14 +35,12 @@
     }
 }
 @media screen and ( min-width: 1250px){
-    body > div > div:first-child{
+    body > div > div:first-child,
+    footer > div:first-child{
         padding: 75px 75px 0 0;
     }
     body > div:first-child > div:first-child{
         padding: 30px 75px 30px 0;
-    }
-    footer > div:first-child{
-        padding: 75px 75px 0 0;
     }
 }
 @media screen and ( min-width: 1200px) and ( max-width: 1400px){
@@ -65,20 +49,24 @@
     }
 }
 @media screen and ( min-width: 900px) and ( max-width: 1250px){
-    body > div > div:first-child{
+    body > div > div:first-child,
+    footer > div:first-child{
         padding: 75px;
     }
 }
 @media screen and ( min-width: 900px){
-    body > div > div:last-child{
+    body > div > div:last-child,
+    footer > div:last-child{
         padding: 75px;
     }
 }
 @media screen and ( min-width: 500px) and ( max-width: 900px){
-    body > div > div:last-child{
+    body > div > div:first-child,
+    footer > div:first-child{
         padding: 40px 25px;
     }
-    body > div > div:first-child{
+    body > div > div:last-child,
+    footer > div:last-child{
         padding: 40px 25px;
     }
 }
@@ -143,9 +131,12 @@
 }
 /* TEXT-ALIGN ___ FLEX-WRAP ____ FLEX-DIRECTION */
 @media screen and ( min-width: 600px){
-    .cv__portfolio_references{
+    .cv__portfolio_references,
+    .cv__footer_right-part{
         flex-wrap: wrap;
+        justify-content: center;
     }
+
 }
 @media screen and ( max-width: 600px){
     .cv__portfolio_references{
@@ -159,7 +150,12 @@
     }    
 }
 @media screen and ( max-width: 1250px){
-    body > div > div:first-child{
+    body > div,
+    footer{
+        flex-wrap: wrap;
+    }
+    body > div > div:first-child,
+    footer > div:first-child{
         text-align: center;
     }
     body > div:first-child > div:first-child,
@@ -170,11 +166,11 @@
         text-align: center;
     }
 }
-@media screen and ( max-width: 1250px){
-    body > div{
-        flex-wrap: wrap;
-    }
-}
+/* @media screen and ( max-width: 1250px){
+    
+} */
+
+
 /* FONT-SIZE */
 @media screen and ( min-width: 800px){
     body > div > div:last-child{
@@ -257,11 +253,17 @@
     .cv__portfolio_references a{
         font-size: 24px;
     }
+    h3{
+        font-size: 18px;
+    }
 }
 @media screen and ( max-width: 750px){
     h2,
     .cv__portfolio_references a{
         font-size: 20px;
+    }
+    h3{
+        font-size: 14px;
     }
 }
 /* WIDTH FOR DIVS */
@@ -269,6 +271,12 @@
     .cv__portfolio_references > div{
         width: 50%;
     }
+    .cv__footer_right-part > div{
+        width: 33%;
+    }
+
+
+
 }
 @media screen and ( max-width: 600px){
     .cv__portfolio_references > div{
@@ -289,7 +297,8 @@
         width: 50%;
     }
     address,
-    body > div> div:last-child > div{
+    body > div> div:last-child > div,
+    footer > div:last-child > div{
         width: 750px; 
     }
 }
