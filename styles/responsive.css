@@ -132,6 +132,62 @@
         font-size: 16px;
     }
 }
+@media screen and ( min-width: 1000px) and ( max-width: 1400px){
+    header > nav > ul > li{
+        width: 33%;
+    }
+}
+@media screen and ( min-width: 600px) and ( max-width: 1000px){
+    header > nav > ul > li{
+        width: 50%;
+    }
+}
+@media screen and ( min-width: 350px) and ( max-width: 600px){
+    header > nav > ul > li{
+        width: 100%;
+    }
+}
+@media screen and ( min-width: 1500px){
+    header > nav > ul > li{
+        padding: 25px 25px;
+    }
+    header > nav > ul > li > a > h2{
+        margin: 25px 0;
+    }
+}
+@media screen and (min-width: 1400px) and ( max-width: 1500px){
+    header > nav > ul > li{
+        padding: 15px 15px;
+    }
+    header > nav > ul > li > a > h2{
+        margin: 10px 0;
+    }
+}
+@media screen and (min-width: 600px) and ( max-width: 1400px){
+    header > nav > ul > li{
+        /* padding: 10px 10px; */
+    }
+    header > nav > ul > li > a > h2{
+        margin: 5px 0;
+    }
+}
+@media screen and ( max-width: 600px){
+    header > nav > ul > li > a > h2{
+        margin: 0;
+    }
+}
+
+
+
+
+@media screen and ( max-width: 1200px){
+    header > nav > ul > li{
+        padding: 15px 15px;
+    }
+}
+
+
+
 /* TEXT-ALIGN ___ FLEX-WRAP ____ FLEX-DIRECTION */
 @media screen and ( min-width: 600px){
     .cv__portfolio_references{
