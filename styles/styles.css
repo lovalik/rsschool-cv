@@ -127,7 +127,7 @@ address > ul > li > p:last-child{
 }
 .cv__portfolio_references,
 .cv__code-examples_references,
-.cv__footer_right-part{
+.cv__footer {
     display: flex;
 }
 .cv__portfolio a,
@@ -188,26 +188,26 @@ address > ul > li > p:last-child{
 .cv__hobby > div:first-child{
     margin-bottom: 25px;
 }
-.cv__footer_right-part > div{
+.cv__footer_right-part > div > div{
     text-align: center;
 }
-.cv__footer_right-part > div > h3{
+.cv__footer_right-part h3{
     height: 20%;
 }
-.cv__footer_right-part > div > p,
-.cv__footer_right-part > div > a{
+.cv__footer_right-part p,
+.cv__footer_right-part a{
     height: 80%;
     margin: 0;
 }
-.cv__footer_right-part > div > a{
+.cv__footer_right-part a{
     display: block;
 }
 .cv__footer_right-part img{
     display: inline-block;
     vertical-align: middle;
 }
-.cv__footer_right-part > div > p:before,
-.cv__footer_right-part > div > a:before{
+.cv__footer_right-part p:before,
+.cv__footer_right-part a:before{
     display: inline-block;
     vertical-align: middle;
     content: "";
