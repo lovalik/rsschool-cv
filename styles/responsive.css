@@ -1,29 +1,30 @@
 /* BACKGROUND-COLOR */
 @media screen and ( min-width: 1250px){
-    body > div:nth-child(odd) > div:first-child,
-    footer:nth-child(odd) > div:first-child{
+    header:nth-child(odd),
+    section:nth-child(odd) > article:first-child,
+    footer:nth-child(odd) > article:first-child{
         background-color: #2B2C2C;
     }
-    body > div:nth-child(even) > div:first-child,
-    footer:nth-child(even) > div:first-child{
+    section:nth-child(even) > article:first-child,
+    footer:nth-child(even) > article:first-child{
         background-color: #292A2A;
     }
-    body > div:nth-child(odd) > div:last-child,
-    footer:nth-child(odd) > div:last-child{
+    section:nth-child(odd) > article:last-child,
+    footer:nth-child(odd) > article:last-child{
         background-color: #2D2E2E;
     }
-    body > div:nth-child(even) > div:last-child,
-    footer:nth-child(even) > div:last-child{
+    section:nth-child(even) > article:last-child,
+    footer:nth-child(even) > article:last-child{
         background-color: #2B2C2C;
     }
 }
 @media screen and ( max-width: 1250px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         background-color: #292A2A;
     }
-    body > div > div:last-child,
-    footer > div:last-child{
+    section > article:last-child,
+    footer > article:last-child{
         background-color: #2D2E2E;
     }
 }
@@ -35,51 +36,54 @@
     }
 }
 @media screen and ( min-width: 1250px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         padding: 75px 75px 0 0;
     }
-    body > div:first-child > div:first-child{
+    section:first-child > article:first-child{
         padding: 30px 75px 30px 0;
     }
 }
 @media screen and ( min-width: 1200px) and ( max-width: 1400px){
-    body > div:first-child > div:first-child{
+    section:first-child > article:first-child{
         padding-right: 25px;
     }
 }
 @media screen and ( min-width: 900px) and ( max-width: 1250px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         padding: 75px;
     }
 }
 @media screen and ( min-width: 900px){
-    body > div > div:last-child,
-    footer > div:last-child{
+    section > article:last-child,
+    footer > article:last-child{
         padding: 75px;
     }
 }
 @media screen and ( min-width: 500px) and ( max-width: 900px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    section > article:last-child,
+    footer > article:first-child,
+    footer > article:last-child{
         padding: 40px 25px;
     }
-    body > div > div:last-child,
-    footer > div:last-child{
+    /* section > article:last-child,
+    footer > article:last-child{
         padding: 40px 25px;
-    }
+    } */
 }
 @media screen and ( max-width: 500px){
-    body > div > div:last-child{
+    section > article:last-child,
+    section > article:first-child{
         padding: 20px 25px;
     }
-    body > div > div:first-child{
+    /* section > div:first-child{
         padding: 20px 25px;
-    }
+    } */
 }
 @media screen and ( max-width: 410px){
-    body > div:first-child > div:first-child{
+    section:first-child > article:first-child{
         padding: 40px 5px;
     }
 }
@@ -98,7 +102,6 @@
     .cv__avatar{
         border-radius: 150px;
     }
-
 }
 @media screen and ( max-width: 350px){
     .cv__avatar_wrapper{
@@ -149,27 +152,30 @@
     }
 }
 @media screen and ( min-width: 1250px){
-    body > div > div:first-child,
-    footer > div:first-child    {
+    section > article:first-child,
+    footer > article:first-child    {
         text-align: right;
     }    
 }
 @media screen and ( max-width: 1250px){
-    body > div,
+    section,
     footer{
         flex-wrap: wrap;
     }
-    body > div > div:first-child,
-    footer > div:first-child{
-        text-align: center;
-    }
-    body > div:first-child > div:first-child,
-    body > div:first-child > div:last-child{
-        text-align: center;
-    }
+    section > article:first-child,
+    footer > article:first-child,
+    section:first-child > article:first-child,
+    section:first-child > article:last-child,
     address > div{
         text-align: center;
     }
+    /* section:first-child > article:first-child,
+    section:first-child > article:last-child{
+        text-align: center;
+    } */
+    /* address > div{
+        text-align: center;
+    } */
 }
 /* @media screen and ( max-width: 1250px){
     
@@ -178,12 +184,12 @@
 
 /* FONT-SIZE */
 @media screen and ( min-width: 800px){
-    body > div > div:last-child{
+    section > article:last-child{
         font-size: 18px;
     }
 }
 @media screen and ( max-width: 800px){
-    body > div > div:last-child{
+    section > article:last-child{
         font-size: 16px;
     }
 }
@@ -279,9 +285,6 @@
     .cv__footer_right-part > div{
         width: 33%;
     }
-
-
-
 }
 @media screen and ( max-width: 600px){
     .cv__portfolio_references > div{
@@ -292,51 +295,52 @@
     }
 }
 @media screen and ( max-width: 330px){
-    body > div,
+    header,
+    section,
     footer{
         min-width: 330px;
     }
 }
 @media screen and ( min-width: 1800px){
-    body > div > div:first-child, 
-    body > div > div:last-child,
-    footer > div:first-child,
-    footer > div:last-child{
+    section > article:first-child, 
+    section > article:last-child,
+    footer > article:first-child,
+    footer > article:last-child{
         width: 50%;
     }
     address,
-    body > div> div:last-child > div,
-    footer > div:last-child > div{
+    section > article:last-child > div,
+    footer > article:last-child > div{
         width: 750px; 
     }
 }
 @media screen and ( min-width: 1400px) and ( max-width: 1800px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         width: 35%;
     }
-    body > div > div:last-child,
-    footer > div:last-child{
+    section > article:last-child,
+    footer > article:last-child{
         width: 65%;
     }
 }
 @media screen and ( min-width: 1250px) and ( max-width: 1400px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         width: 30%;
     }
-    body > div > div:last-child,
-    footer > div:last-child{
+    section > article:last-child,
+    footer > article:last-child{
         width: 70%;
     }
 }
 @media screen and ( max-width: 1250px){
-    body > div > div:first-child,
-    footer > div:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         width: 100%;
     }
-    body > div > div:last-child,
-    footer > div:last-child{
+    section > article:last-child,
+    footer > article:last-child{
         width: 100%;
     }
     /* footer > div:first-child{

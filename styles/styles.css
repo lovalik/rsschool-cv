@@ -22,7 +22,8 @@ a:hover{
     color: white;
     transform: scale(1.1, 1.1);
 }
-body > div,
+header,
+section,
 footer{
     position: relative;
     display: flex;
@@ -30,9 +31,30 @@ footer{
     padding: 0;
     width: 100%;
 }
-body > div > div:first-child,
-body > div > div:last-child{
+section > article:first-child,
+section > article:last-child{
     position: relative;
+}
+header{
+    justify-content: center;
+}
+/* header{
+    background-color: red;
+} */
+nav{
+    outline: solid 1px red;
+}
+header > nav > ul > li{
+    display: inline-block;
+    margin: 25px 25px;
+    /* outline: solid 2px blue; */
+
+}
+header > nav > ul > li > a > h2{
+    margin: 25px 0;
+}
+header > nav > ul > li > a{
+    text-align: center;
 }
 
 
