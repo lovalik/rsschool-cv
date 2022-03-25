@@ -38,36 +38,16 @@ section > article:last-child{
 header{
     justify-content: center;
 }
-/* header{
-    background-color: red;
-} */
-nav{
-    outline: solid 1px red;
-}
 header > nav > ul{
     text-align: center;
     padding: 0;
 }
 header > nav > ul > li{
     display: inline-block;
-    /* padding: 25px 25px; */
-    /* outline: solid 2px blue; */
-
-}
-header > nav > ul > li > a > h2{
-    /* margin: 25px 0; */
 }
 header > nav > ul > li > a{
     text-align: center;
 }
-
-
-.cv__footer_right-part > div{
-    outline: solid 2px blue;
-}
-
-
-
 .cv__skills-title_wrapper,
 .cv__portfolio-title_wrapper,
 .cv__english-skills-title_wrapper,
@@ -127,7 +107,6 @@ address > ul{
     list-style-type : none;
 }
 address > ul> li{
-    /* font-size: 24px; */
     font-style: normal;
 }
 address > ul > li > p:first-child{
@@ -136,15 +115,10 @@ address > ul > li > p:first-child{
 }
 address > ul> li > a{
     font-size: 20px;
-    /* font-style: normal; */
 }
 address > ul > li > p:last-child{
     font-size: 20px;
-    /* font-weight: bold; */
 }
-/* address > div:last-child{
-    margin-top: 15px;
-} */
 .cv__portfolio > div:last-child{
     margin-top: 25px;
     padding-top: 25px;
@@ -152,10 +126,12 @@ address > ul > li > p:last-child{
     border-top: solid 1px #A4A5A6;
 }
 .cv__portfolio_references,
+.cv__code-examples_references,
 .cv__footer_right-part{
     display: flex;
 }
-.cv__portfolio a{
+.cv__portfolio a,
+.cv__code-examples a{
     display: block;
     margin-bottom: 20px;
     font-weight: bold;
@@ -215,19 +191,35 @@ address > ul > li > p:last-child{
 .cv__footer_right-part > div{
     text-align: center;
 }
-.cv__logo-rsschool,
-.cv__logo-github{
-    /* width: 75%; */
-    margin: 24px 0;
-    padding: 20px;
-    background-color: #E0A809;
-    /* border-radius: 25px; */
+.cv__footer_right-part > div > h3{
+    height: 20%;
+}
+.cv__footer_right-part > div > p,
+.cv__footer_right-part > div > a{
+    height: 80%;
+    margin: 0;
+}
+.cv__footer_right-part > div > a{
+    display: block;
+}
+.cv__footer_right-part img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cv__footer_right-part > div > p:before,
+.cv__footer_right-part > div > a:before{
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    font-size: 0;
+    height: 100%;
 }
 .cv__logo-rsschool{
-    width: 75%;
-    border-radius: 25px;
+    height: 70%;
+    padding: 20px;
+    background-color: #E0A809;
 }
 .cv__logo-github{
-    width: 50%;
-    border-radius: 50%;
+    height: 70%;
+    background-color: #2D2E2E;
 }

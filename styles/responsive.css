@@ -28,13 +28,9 @@
         background-color: #2D2E2E;
     }
 }
+
+
 /* ALL PADDINGS */
-@media screen and ( min-width: 600px){
-    a[href$="lovalik/myAppJavaScript"],
-    a[href$="lovalik/myAppReact"]{
-        padding-left: 60px;
-    }
-}
 @media screen and ( min-width: 1250px){
     section > article:first-child,
     footer > article:first-child{
@@ -68,19 +64,13 @@
     footer > article:last-child{
         padding: 40px 25px;
     }
-    /* section > article:last-child,
-    footer > article:last-child{
-        padding: 40px 25px;
-    } */
 }
 @media screen and ( max-width: 500px){
     section > article:last-child,
-    section > article:first-child{
+    section > article:first-child,
+    footer > article:first-child{
         padding: 20px 25px;
     }
-    /* section > div:first-child{
-        padding: 20px 25px;
-    } */
 }
 @media screen and ( max-width: 410px){
     section:first-child > article:first-child{
@@ -92,6 +82,8 @@
         padding: 10px;
     }
 }
+
+
 /* AVATARA */
 @media screen and ( min-width: 350px){
     .cv__avatar_wrapper{
@@ -113,6 +105,8 @@
         border-radius: 100px;
     }
 }
+
+
 /* TABLE AND UL */
 @media screen and ( min-width: 800px){
     .cv__personal-traits_right-part > ul{
@@ -164,9 +158,6 @@
     }
 }
 @media screen and (min-width: 600px) and ( max-width: 1400px){
-    header > nav > ul > li{
-        /* padding: 10px 10px; */
-    }
     header > nav > ul > li > a > h2{
         margin: 5px 0;
     }
@@ -176,21 +167,16 @@
         margin: 0;
     }
 }
-
-
-
-
 @media screen and ( max-width: 1200px){
     header > nav > ul > li{
         padding: 15px 15px;
     }
 }
 
-
-
 /* TEXT-ALIGN ___ FLEX-WRAP ____ FLEX-DIRECTION */
 @media screen and ( min-width: 600px){
-    .cv__portfolio_references{
+    .cv__portfolio_references,
+    .cv__code-examples_references{
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -200,6 +186,7 @@
 }
 @media screen and ( max-width: 600px){
     .cv__portfolio_references,
+    .cv__code-examples_references,
     .cv__footer_right-part{
         flex-direction: column;
     }
@@ -225,19 +212,7 @@
     address > div{
         text-align: center;
     }
-    /* section:first-child > article:first-child,
-    section:first-child > article:last-child{
-        text-align: center;
-    } */
-    /* address > div{
-        text-align: center;
-    } */
 }
-/* @media screen and ( max-width: 1250px){
-    
-} */
-
-
 /* FONT-SIZE */
 @media screen and ( min-width: 800px){
     section > article:last-child{
@@ -252,14 +227,16 @@
 @media screen and ( min-width: 800px ){
     .cv__work-experience > div > div:last-child,
     .cv__education > div > div:last-child,
-    .cv__hobby > div > div:last-child{
+    .cv__hobby > div > div:last-child,
+    .cv__footer_right-part p{
         font-size: 18px;
     }
 }
 @media screen and ( min-width: 550px ) and ( max-width: 800px ){
     .cv__work-experience > div > div:last-child,
     .cv__education > div > div:last-child,
-    .cv__hobby > div > div:last-child{
+    .cv__hobby > div > div:last-child,
+    .cv__footer_right-part p{
         font-size: 16px;
     }
 }
@@ -284,14 +261,16 @@
     }
     .cv__work-experience > div > div:last-child,
     .cv__education > div > div:last-child,
-    .cv__hobby > div > div:last-child{
+    .cv__hobby > div > div:last-child,
+    .cv__footer_right-part p{
         font-size: 14px;
     }
 }
 @media screen and ( max-width: 400px){
     .cv__work-experience > div > div:last-child,
     .cv__education > div > div:last-child,
-    .cv__hobby > div > div:last-child{
+    .cv__hobby > div > div:last-child,
+    .cv__footer_right-part p{
         font-size: 12px;
     }
 }
@@ -317,7 +296,8 @@
 }
 @media screen and ( min-width: 750px){
     h2,
-    .cv__portfolio_references a{
+    .cv__portfolio_references a,
+    .cv__code-examples_references a{
         font-size: 24px;
     }
     h3{
@@ -326,28 +306,35 @@
 }
 @media screen and ( max-width: 750px){
     h2,
-    .cv__portfolio_references a{
+    .cv__portfolio_references a,
+    .cv__code-examples_references a{
         font-size: 20px;
     }
     h3{
         font-size: 14px;
     }
 }
-/* WIDTH FOR DIVS */
+/* WIDTH FOR BLOCKS */
 @media screen and ( min-width: 600px){
-    .cv__portfolio_references > div{
+    .cv__portfolio_references > div,
+    .cv__code-examples_references > div{
         width: 50%;
     }
-    .cv__footer_right-part > div{
-        width: 33%;
+    .cv__footer_right-part > div:first-child{
+        width: 40%;
+    }
+    .cv__footer_right-part > div:last-child{
+        width: 45%;
     }
 }
 @media screen and ( max-width: 600px){
-    .cv__portfolio_references > div{
+    .cv__portfolio_references > div,
+    .cv__code-examples_references > div{
         width: 280px;
     }
     .cv__footer_right-part > div{
-        width: 60%;
+        width: 100%;
+        height: 150px;
     }
 }
 @media screen and ( max-width: 330px){
@@ -399,12 +386,6 @@
     footer > article:last-child{
         width: 100%;
     }
-    /* footer > div:first-child{
-        width: 100%;
-    }
-    footer > div:last-child{
-        width: 100%;
-    } */
 }
 @media screen and ( min-width: 800px){
     .cv__work-experience > div > div:first-child,
