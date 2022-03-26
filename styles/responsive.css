@@ -1,11 +1,11 @@
 /* BACKGROUND-COLOR */
 @media screen and ( min-width: 1250px){
     header:nth-child(odd),
-    section:nth-child(odd) > article:first-child,
+    section:nth-child(odd) > article:nth-child(2),
     footer:nth-child(odd) > article:first-child{
         background-color: #2B2C2C;
     }
-    section:nth-child(even) > article:first-child,
+    section:nth-child(even) > article:nth-child(2),
     footer:nth-child(even) > article:first-child{
         background-color: #292A2A;
     }
@@ -19,7 +19,7 @@
     }
 }
 @media screen and ( max-width: 1250px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         background-color: #292A2A;
     }
@@ -32,21 +32,21 @@
 
 /* ALL PADDINGS */
 @media screen and ( min-width: 1250px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         padding: 75px 75px 0 0;
     }
-    section:first-child > article:first-child{
+    section:first-child > article:nth-child(2){
         padding: 30px 75px 30px 0;
     }
 }
 @media screen and ( min-width: 1200px) and ( max-width: 1400px){
-    section:first-child > article:first-child{
+    section:first-child > article:nth-child(2){
         padding-right: 25px;
     }
 }
 @media screen and ( min-width: 900px) and ( max-width: 1250px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         padding: 75px;
     }
@@ -58,7 +58,7 @@
     }
 }
 @media screen and ( min-width: 500px) and ( max-width: 900px){
-    section > article:first-child,
+    section > article:nth-child(2),
     section > article:last-child,
     footer > article:first-child,
     footer > article:last-child{
@@ -67,13 +67,13 @@
 }
 @media screen and ( max-width: 500px){
     section > article:last-child,
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         padding: 20px 25px;
     }
 }
 @media screen and ( max-width: 410px){
-    section:first-child > article:first-child{
+    section:first-child > article:nth-child(2){
         padding: 40px 5px;
     }
 }
@@ -195,7 +195,7 @@
     }
 }
 @media screen and ( min-width: 1250px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         text-align: right;
     }    
@@ -205,9 +205,9 @@
     footer{
         flex-wrap: wrap;
     }
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child,
-    section:first-child > article:first-child,
+    section:first-child > article:nth-child(2),
     section:first-child > article:last-child,
     address > div{
         text-align: center;
@@ -348,7 +348,7 @@
     }
 }
 @media screen and ( min-width: 1800px){
-    section > article:first-child, 
+    section > article:nth-child(2), 
     section > article:last-child,
     footer > article:first-child,
     footer > article:last-child{
@@ -361,7 +361,7 @@
     }
 }
 @media screen and ( min-width: 1400px) and ( max-width: 1800px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         width: 35%;
     }
@@ -371,7 +371,7 @@
     }
 }
 @media screen and ( min-width: 1250px) and ( max-width: 1400px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         width: 30%;
     }
@@ -381,7 +381,7 @@
     }
 }
 @media screen and ( max-width: 1250px){
-    section > article:first-child,
+    section > article:nth-child(2),
     footer > article:first-child{
         width: 100%;
     }

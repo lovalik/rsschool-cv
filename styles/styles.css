@@ -31,7 +31,8 @@ footer{
     padding: 0;
     width: 100%;
 }
-section > article:first-child,
+article,
+section > article:nth-child(2),
 section > article:last-child{
     position: relative;
 }
@@ -222,4 +223,10 @@ address > ul > li > p:last-child{
 .cv__logo-github{
     height: 70%;
     background-color: #2D2E2E;
+}
+.cv__added-for-pass-w3c{
+    display: none;
+}
+.cv__added-for-pass-w3c_h2{
+    display: none; 
 }
