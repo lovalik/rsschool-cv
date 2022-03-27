@@ -2,13 +2,15 @@
 @import url('responsive.css');
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    background-color: #292A2A;
+
     font-family: 'Ubuntu', 'Ubuntu-Bold', 'Tahoma', 'Arial', sans-serif;
+    font-size: 0px;
     color: #979899;
-    font-size: 0;
+
+    background-color: #292A2A;
 }
 
 * {
@@ -17,12 +19,14 @@ body {
 
 a {
     text-decoration: none;
-    transition: 150ms linear;
     color: #E0A809;
+
+    transition: 150ms linear;
 }
 
 a:hover {
     color: white;
+
     transform: scale(1.1, 1.1);
 }
 
@@ -30,9 +34,10 @@ header,
 section,
 footer {
     position: relative;
+
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
 }
 
@@ -47,8 +52,9 @@ header {
 }
 
 header > nav > ul {
+    padding: 0px;
+
     text-align: center;
-    padding: 0;
 }
 
 header > nav > ul > li {
@@ -77,14 +83,17 @@ p {
 
 h2,
 h3 {
-    margin: 0;
+    margin: 0px;
     padding-top: 8px;
+
     text-transform: uppercase;
 }
 
 .cv__avatar_wrapper {
     display: inline-block;
+
     text-align: center;
+
     border: solid 1px rgb(0, 0, 0);
 }
 
@@ -101,30 +110,35 @@ h3 {
 .cv__personal-data_FIO_name,
 .cv__personal-data_FIO_surname {
     display: inline-block;
+
     font-size: 72px;
 }
 
 .cv__personal-data_FIO_name {
     margin-bottom: 0px;
+
     line-height: 0.8;
     color: #A4A5A6;
 }
 
 .cv__personal-data_FIO_surname {
-    text-transform: uppercase;
-    font-family: 'Ubuntu-Bold';
     margin: 0 0 0 15px;
+
+    font-family: 'Ubuntu-Bold';
+    text-transform: uppercase;
     line-height: 1;
     color: #E0A809;
 }
 
 address {
     padding-top: 25px;
-    font-size: 0;
+
+    font-size: 0px;
 }
 
 address > ul{
-    padding: 0;
+    padding: 0px;
+
     list-style-type : none;
 }
 
@@ -148,7 +162,9 @@ address > ul > li > p:last-child {
 .cv__portfolio > div:last-child {
     margin-top: 25px;
     padding-top: 25px;
-    font-size: 0;
+
+    font-size: 0px;
+
     border-top: solid 1px #A4A5A6;
 }
 
@@ -162,13 +178,16 @@ address > ul > li > p:last-child {
 .cv__code-examples a {
     display: block;
     margin-bottom: 20px;
+
     font-weight: bold;
 }
 
 .cv__personal-traits {
-    border-collapse: collapse;
     padding-top: 20px;
+
     text-align: left;
+
+    border-collapse: collapse;
 }
 
 .cv__personal-traits tr > td {
@@ -179,12 +198,14 @@ address > ul > li > p:last-child {
 .cv__education > div,
 .cv__hobby > div {
     margin-bottom: 25px;
-    font-size: 0;
+
+    font-size: 0px;
 }
 .cv__work-experience > div > div,
 .cv__education > div > div,
 .cv__hobby > div > div {
     display: inline-block;
+
     vertical-align: top;
 }
 
@@ -198,8 +219,9 @@ address > ul > li > p:last-child {
 .cv__work-experience_workplace_city,
 .cv__education_period,
 .cv__education_city {
-    font-size: 10px;
     position: relative;
+
+    font-size: 10px;
 }
 
 .cv__work-experience_workplace_period,
@@ -215,11 +237,12 @@ address > ul > li > p:last-child {
 }
 
 .cv__work-experience_workplace_organization_prefix {
-    margin: 5px 0 0 0;
+    margin-top: 5px;
 }
 
 .cv__personal-traits-article p {
     display: inline-block;
+
     text-indent: 45px;
 }
 
@@ -238,7 +261,7 @@ address > ul > li > p:last-child {
 .cv__footer_right-part p,
 .cv__footer_right-part a {
     height: 80%;
-    margin: 0;
+    margin: 0px;
 }
 
 .cv__footer_right-part a {
@@ -247,6 +270,7 @@ address > ul > li > p:last-child {
 
 .cv__footer_right-part img {
     display: inline-block;
+
     vertical-align: middle;
 }
 
@@ -255,18 +279,20 @@ address > ul > li > p:last-child {
     display: inline-block;
     vertical-align: middle;
     content: "";
-    font-size: 0;
+    font-size: 0px;
     height: 100%;
 }
 
 .cv__logo-rsschool {
     height: 70%;
     padding: 20px;
+
     background-color: #E0A809;
 }
 
 .cv__logo-github {
     height: 70%;
+    
     background-color: #2D2E2E;
 }
 
