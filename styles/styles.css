@@ -81,6 +81,10 @@ p {
     margin-block-end: 10px;
 }
 
+h1 {
+    display: none;
+}
+
 h2,
 h3 {
     margin: 0px;
@@ -292,8 +296,6 @@ address > ul > li > p:last-child {
 
 .cv__logo-github {
     height: 70%;
-    
-    background-color: #2D2E2E;
 }
 
 .cv__added-for-pass-w3c {
