@@ -1,12 +1,12 @@
 /* BACKGROUND-COLOR */
 @media screen and ( min-width: 1250px) {
     header:nth-child(odd),
-    section:nth-child(odd) > article:nth-child(2),
-    footer:nth-child(odd) > article:first-child {
+    section:nth-child(odd) > article:nth-child(2){
+    /* footer:nth-child(odd) > article:first-child { */
         background-color: #2B2C2C;
     }
     section:nth-child(even) > article:nth-child(2),
-    footer:nth-child(even) > article:first-child {
+    footer:nth-child(odd) > article:first-child {
         background-color: #292A2A;
     }
     section:nth-child(odd) > article:last-child,
@@ -14,7 +14,7 @@
         background-color: #2D2E2E;
     }
     section:nth-child(even) > article:last-child,
-    footer:nth-child(even) > article:last-child {
+    footer:nth-child(odd) > article:last-child {
         background-color: #2B2C2C;
     }
 }
@@ -135,7 +135,7 @@
     .cv__personal-traits_right-part > ul {
         display: block;
         padding-left: 15px;
-        
+
         font-size: 16px;
     }
 }
