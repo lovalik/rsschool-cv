@@ -1,0 +1,307 @@
+@import url('font-face.css');
+@import url('responsive.css');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+    font-family: 'Ubuntu', 'Ubuntu-Bold', 'Tahoma', 'Arial', sans-serif;
+    font-size: 0px;
+    color: #979899;
+
+    background-color: #292A2A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #E0A809;
+
+    transition: 150ms linear;
+}
+
+a:hover {
+    color: white;
+
+    transform: scale(1.1, 1.1);
+}
+
+header,
+section,
+footer {
+    position: relative;
+
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+article,
+section > article:nth-child(2),
+section > article:last-child {
+    position: relative;
+}
+
+header {
+    justify-content: center;
+}
+
+header > nav > ul {
+    padding: 0px;
+
+    text-align: center;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    text-align: center;
+}
+
+.cv__skills-title_wrapper,
+.cv__portfolio-title_wrapper,
+.cv__english-skills-title_wrapper,
+.cv__personal-traits-title_wrapper,
+.cv__education-title_wrapper,
+.cv__work-experience-title_wrapper,
+.cv__hobby-title_wrapper,
+.cv__footer-title_wrapper {
+    display: inline-block;
+}
+
+p {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+h1 {
+    display: none;
+}
+
+h2,
+h3 {
+    margin: 0px;
+    padding-top: 8px;
+
+    text-transform: uppercase;
+}
+
+.cv__avatar_wrapper {
+    display: inline-block;
+
+    text-align: center;
+
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.cv__avatar {
+    height: 100%;
+}
+
+.cv__personal-data_FIO {
+    display: block;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #A4A5A6;
+}
+
+.cv__personal-data_FIO_name,
+.cv__personal-data_FIO_surname {
+    display: inline-block;
+
+    font-size: 72px;
+}
+
+.cv__personal-data_FIO_name {
+    margin-bottom: 0px;
+
+    line-height: 0.8;
+    color: #A4A5A6;
+}
+
+.cv__personal-data_FIO_surname {
+    margin: 0 0 0 15px;
+
+    font-family: 'Ubuntu-Bold';
+    text-transform: uppercase;
+    line-height: 1;
+    color: #E0A809;
+}
+
+address {
+    padding-top: 25px;
+
+    font-size: 0px;
+}
+
+address > ul{
+    padding: 0px;
+
+    list-style-type : none;
+}
+
+address > ul> li {
+    font-style: normal;
+}
+
+address > ul > li > p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+address > ul> li > a {
+    font-size: 20px;
+}
+
+address > ul > li > p:last-child {
+    font-size: 20px;
+}
+
+.cv__portfolio > div:last-child {
+    margin-top: 25px;
+    padding-top: 25px;
+
+    font-size: 0px;
+
+    border-top: solid 1px #A4A5A6;
+}
+
+.cv__portfolio_references,
+.cv__code-examples_references,
+.cv__footer {
+    display: flex;
+}
+
+.cv__portfolio a,
+.cv__code-examples a {
+    display: block;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+}
+
+.cv__personal-traits {
+    padding-top: 20px;
+
+    text-align: left;
+
+    border-collapse: collapse;
+}
+
+.cv__personal-traits tr > td {
+    padding-top: 5px;
+}
+
+.cv__work-experience > div,
+.cv__education > div,
+.cv__hobby > div {
+    margin-bottom: 25px;
+
+    font-size: 0px;
+}
+.cv__work-experience > div > div,
+.cv__education > div > div,
+.cv__hobby > div > div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.cv__work-experience > div > div:last-child,
+.cv__education > div > div:last-child,
+.cv__hobby > div > div:last-child {
+    padding-left: 25px;
+}
+
+.cv__work-experience_workplace_period,
+.cv__work-experience_workplace_city,
+.cv__education_period,
+.cv__education_city {
+    position: relative;
+
+    font-size: 10px;
+}
+
+.cv__work-experience_workplace_period,
+.cv__education_period {
+    margin-top: 14px;
+}
+
+.cv__work-experience_workplace_organization,
+.cv__education_organization,
+.cv__hobby-period {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cv__work-experience_workplace_organization_prefix {
+    margin-top: 5px;
+}
+
+.cv__personal-traits-article p {
+    display: inline-block;
+
+    text-indent: 45px;
+}
+
+.cv__hobby > div:first-child {
+    margin-bottom: 25px;
+}
+
+.cv__footer_right-part > div > div {
+    text-align: center;
+}
+
+.cv__footer_right-part h3{
+    height: 20%;
+}
+
+.cv__footer_right-part p,
+.cv__footer_right-part a {
+    height: 80%;
+    margin: 0px;
+}
+
+.cv__footer_right-part a {
+    display: block;
+}
+
+.cv__footer_right-part img {
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.cv__footer_right-part p:before,
+.cv__footer_right-part a:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    font-size: 0px;
+    height: 100%;
+}
+
+.cv__logo-rsschool {
+    height: 70%;
+    padding: 20px;
+
+    background-color: #E0A809;
+}
+
+.cv__logo-github {
+    height: 70%;
+}
+
+.cv__added-for-pass-w3c {
+    display: none;
+}
+
+.cv__added-for-pass-w3c_h2 {
+    display: none; 
+}
